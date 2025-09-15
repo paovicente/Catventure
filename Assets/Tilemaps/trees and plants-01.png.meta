@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: dc386671fcd8d4e46994fa192f11164d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7795304928282366110
+    second: trees and plants-01_0
+  - first:
+      213: 4474492642016039168
+    second: trees and plants-01_1
+  - first:
+      213: -7907375354777264817
+    second: trees and plants-01_2
+  - first:
+      213: 3919468569657213481
+    second: trees and plants-01_3
+  - first:
+      213: -5956822535930632664
+    second: trees and plants-01_4
+  - first:
+      213: -5397947273854185165
+    second: trees and plants-01_5
+  - first:
+      213: -6317811423121382515
+    second: trees and plants-01_6
+  - first:
+      213: -3420467995904466605
+    second: trees and plants-01_7
+  - first:
+      213: -3848281586236207164
+    second: trees and plants-01_8
+  - first:
+      213: -2147280313082887878
+    second: trees and plants-01_9
+  - first:
+      213: -6474769955265975443
+    second: trees and plants-01_10
+  - first:
+      213: 2506765224565932248
+    second: trees and plants-01_11
+  - first:
+      213: 7510330053352910459
+    second: trees and plants-01_12
+  - first:
+      213: 2609583502587267306
+    second: trees and plants-01_13
+  - first:
+      213: 389203878023324046
+    second: trees and plants-01_14
+  - first:
+      213: -1473058982206941959
+    second: trees and plants-01_15
+  - first:
+      213: 6773403171744284367
+    second: trees and plants-01_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trees and plants-01_0
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 6342
+        width: 1183
+        height: 1620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8013984be80ac2d4d84c16a73a70202c
+      internalID: 1474316516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_1
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 6342
+        width: 879
+        height: 1628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ab7ab8471a7f74cb3d39ab39a073cd
+      internalID: -1771847839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_2
+      rect:
+        serializedVersion: 2
+        x: 4674
+        y: 6342
+        width: 874
+        height: 1689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14ac48e3909eb245b6017ceec48d6f2
+      internalID: 1555191578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_3
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 6342
+        width: 989
+        height: 1469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4faffa12c95e14eacbc7ea816f05fa
+      internalID: -998883923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_4
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 4519
+        width: 1183
+        height: 1563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaeaa3aea56b604db99f004ddcf30de
+      internalID: -870916281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_5
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 4519
+        width: 879
+        height: 1599
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a72a7de409b2914cb82176de6f9b484
+      internalID: -920546862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_6
+      rect:
+        serializedVersion: 2
+        x: 4702
+        y: 4519
+        width: 785
+        height: 1681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea78d45ea461c344a86b47200b3b99a
+      internalID: -951570996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_7
+      rect:
+        serializedVersion: 2
+        x: 6110
+        y: 4519
+        width: 940
+        height: 1420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc41fb7e09ed94409dc2ba9b59f7506
+      internalID: -470931259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_8
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 2517
+        width: 1183
+        height: 1558
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21954864d87704a408876a862a1ef27f
+      internalID: -353811235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_9
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 2517
+        width: 879
+        height: 1595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a771619865417b64484aa5dc9e398e7a
+      internalID: 390026681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_10
+      rect:
+        serializedVersion: 2
+        x: 4702
+        y: 2517
+        width: 785
+        height: 1680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d02e7d733a06242910e3e68ee04729
+      internalID: -679491684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_11
+      rect:
+        serializedVersion: 2
+        x: 6110
+        y: 2517
+        width: 940
+        height: 1420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689d086d5d35317478506a75474c97cf
+      internalID: -661597940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_12
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 495
+        width: 1127
+        height: 1733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d35a014134ffcb4e87c7469b9a3b644
+      internalID: 1967812060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_13
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 495
+        width: 879
+        height: 1025
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4763f4f45b04b8e40a23fef1ac85fb62
+      internalID: 816078419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_14
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 494
+        width: 836
+        height: 1542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80ee523f0c49434d97bd5fbd520ba46
+      internalID: 88256965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_15
+      rect:
+        serializedVersion: 2
+        x: 5060
+        y: 494
+        width: 574
+        height: 1323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ea14d4494261743b96c7ad1ecd8231
+      internalID: -144451436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees and plants-01_16
+      rect:
+        serializedVersion: 2
+        x: 6322
+        y: 494
+        width: 854
+        height: 1486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4749dd002e123f14b87daa4f65446c9b
+      internalID: -153147945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a2d47890ac4433e43ab9c8e9d80a85fc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trees and plants-01_0: 1474316516
+      trees and plants-01_1: -1771847839
+      trees and plants-01_10: -679491684
+      trees and plants-01_11: -661597940
+      trees and plants-01_12: 1967812060
+      trees and plants-01_13: 816078419
+      trees and plants-01_14: 88256965
+      trees and plants-01_15: -144451436
+      trees and plants-01_16: -153147945
+      trees and plants-01_2: 1555191578
+      trees and plants-01_3: -998883923
+      trees and plants-01_4: -870916281
+      trees and plants-01_5: -920546862
+      trees and plants-01_6: -951570996
+      trees and plants-01_7: -470931259
+      trees and plants-01_8: -353811235
+      trees and plants-01_9: 390026681
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

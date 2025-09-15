@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private InputActionReference moveAction;
     [SerializeField] private GameObject blackScreen;
-    [SerializeField] private float playerSpeed = 50f;
+    [SerializeField] private float playerSpeed = 5f;
     private Vector2 moveInput;
 
     private void Update()
