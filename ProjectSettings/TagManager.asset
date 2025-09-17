@@ -2,17 +2,17 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Floor
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Background
   - 
   - 
   - 
@@ -41,3 +41,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1665677839
+    locked: 0
+  - name: Sky
+    uniqueID: 2493762261
+    locked: 0
+  - name: Floor
+    uniqueID: 4108292839
+    locked: 0
+  - name: Structures
+    uniqueID: 1649713967
+    locked: 0
+  - name: Player
+    uniqueID: 2884015449
+    locked: 0
+  - name: StartScreen
+    uniqueID: 297848137
+    locked: 0
+  m_RenderingLayers:
+  - Default

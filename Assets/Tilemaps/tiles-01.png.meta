@@ -126,7 +126,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1712
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -759,7 +759,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tiles-01_0: 7546081397082334890
+      tiles-01_1: 3980690092990440898
+      tiles-01_10: -4535898246064531786
+      tiles-01_11: -554987285274191843
+      tiles-01_12: -1339601475751450082
+      tiles-01_13: 4327404551934603917
+      tiles-01_14: -4096286187974074312
+      tiles-01_15: -3325894616901105832
+      tiles-01_16: -1361085174413268804
+      tiles-01_17: 1452005523442713819
+      tiles-01_18: 4012706464676999941
+      tiles-01_19: -7234011032694298042
+      tiles-01_2: 8785669581123088582
+      tiles-01_20: -7983180081225073525
+      tiles-01_21: 3263082673857668522
+      tiles-01_22: -4898206273360875941
+      tiles-01_23: -7525061624560740889
+      tiles-01_24: 2459500196532743649
+      tiles-01_25: 2249322473652115869
+      tiles-01_3: -7720567175775855412
+      tiles-01_4: -2269415397971646145
+      tiles-01_5: 7250539840987392982
+      tiles-01_6: -2281417771314307369
+      tiles-01_7: -1860679015641091009
+      tiles-01_8: -7611786639566559033
+      tiles-01_9: -7141006455861389380
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

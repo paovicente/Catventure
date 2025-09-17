@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sky-01_0: 5124055786762114144
+      sky-01_1: -4252605194022953235
+      sky-01_2: -4187270376334526893
+      sky-01_3: -5518594990483019443
+      sky-01_4: -1309609235474343322
+      sky-01_5: 934758988484444027
+      sky-01_6: 2782667658229797804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
