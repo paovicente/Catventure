@@ -3,45 +3,48 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private InputActionReference moveAction;
     [SerializeField] private InputActionReference jumpAction;
-    private Vector2 moveInput;
-    private float jumpInput;
-    [SerializeField] private float playerSpeed = 5f;
-    private bool isJumping = false;
-
     [SerializeField] private GameObject blackScreen;
-    
+
+    [Header("Inputs")]
+    private Vector2 moveInput;
+
+    [Header("Player variables")]
+    [SerializeField] private float playerSpeed = 2f;
+    [SerializeField] private float jumpForce = 8f;
+    [SerializeField] private Rigidbody2D playerRigidbody;
+    public bool colFeet = false;
+    private BoxCollider2D playerCollider;
+
+    [Header("Player states")]
+    public bool isRunning = false;
+    public bool isJumping = false;
+    public bool isIdle = false;
+
+    private void Start()
+    {
+        moveAction.action.started += HandleMoveInput;
+        moveAction.action.performed += HandleMoveInput;
+        moveAction.action.canceled += HandleMoveInput;
+
+        jumpAction.action.started += HandleJumpInput;
+        jumpAction.action.performed += HandleJumpInput;
+        jumpAction.action.canceled += HandleJumpInput;
+
+        playerCollider = GetComponent<BoxCollider2D>();
+    }
+
     private void Update()
     {
-        if (!blackScreen.activeSelf) { //when the black start screen is disabled the player can move
-            moveAction.action.started += HandleMoveInput;
-            moveAction.action.performed += HandleMoveInput;
-            moveAction.action.canceled += HandleMoveInput;
+        if (!blackScreen.activeSelf) //when the black start screen is disabled the player can move
+        {
             MovePlayer();
 
-            if (gameObject.transform.position.y < 0) /*if the cat is on the floor - only to test, it will be changed once 
-                                                       * the tilemaps are correctly configured*/
-            {
-                isJumping = false;
-            }
-
-            if (isJumping == false){//to block a double jump
-                jumpAction.action.started += HandleJumpInput;
-                jumpAction.action.performed += HandleJumpInput;
-                jumpAction.action.canceled += HandleJumpInput;
-                Jump();
-            }
-
-            
-            Debug.Log("black screen inactive");
+            colFeet = CheckFloor.colFeet;
+            isJumping = !colFeet; //if the cat is jumping then he doesnt have the feet on a floor or a platform
         }
-        else
-        {
-            Debug.Log(!blackScreen.activeSelf);
-            Debug.Log("active in hierarchy: " + !blackScreen.activeInHierarchy);
-        }
-            
     }
 
     private void HandleMoveInput(InputAction.CallbackContext context)
@@ -49,21 +52,41 @@ public class PlayerController : MonoBehaviour
         moveInput = context.ReadValue<Vector2>();
     }
 
-    private void HandleJumpInput(InputAction.CallbackContext context)
+    private void HandleJumpInput(InputAction.CallbackContext context) //the cat will jump only if the player use the space bar and the catfeet are touching a platform or the floor
     {
-        jumpInput = context.ReadValue<float>();
+        if (!blackScreen.activeSelf && colFeet)
+        {
+            playerRigidbody.linearVelocity = new Vector2(playerRigidbody.linearVelocity.x, jumpForce);
+            isJumping = true;
+            
+            isIdle = false;
+            isRunning = false;
+        }
+        
     }
 
     private void MovePlayer()
     {
-        Vector3 move = new Vector3(moveInput.x, moveInput.y);
+        //Vector3 move = new Vector3(moveInput.x, 0); //the jump (move in y) will be managed separatedly
+        //transform.position += move * playerSpeed * Time.deltaTime;
 
-        transform.position += move * playerSpeed * Time.deltaTime;
+        playerRigidbody.linearVelocity = new Vector2(moveInput.x * playerSpeed, playerRigidbody.linearVelocity.y); //the cat moves in x according to the input and maintains velocity in y 
+
+        if (isJumping)//if the cat isJumping then the cat is not running or idle
+        {
+            isRunning = false;
+            isIdle = false;
+        }else 
+            if (moveInput.x != 0) //if the cat is not jumping means that the cat is on a platform or floor, and he moves then is running
+            {
+                isRunning = true;
+                isIdle = false;
+            }
+            else //if the cat is not jumping means that the cat is on a platform or floor, and he dont move then is idle
+            {
+                isRunning = false;
+                isIdle = true;
+            }
     }
 
-    private void Jump()
-    {
-        isJumping = true;
-        Debug.Log("Esta saltando");
-    }
 }
