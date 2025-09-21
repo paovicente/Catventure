@@ -5,6 +5,7 @@ public class EnemyAnimation : MonoBehaviour
     [Header("Parameters")]
     [SerializeField] private string isDeadParameter = "isDead";
     [SerializeField] private string isIdleParameter = "isIdle";
+    [SerializeField] private string isAttackingParameter = "isAttacking";
 
     [Header("References")]
     [SerializeField] private Animator animator;
@@ -13,6 +14,7 @@ public class EnemyAnimation : MonoBehaviour
 
     private int isDeadHash;
     private int isIdleHash;
+    private int isAttackingHash;
 
     private void Start()
     {
@@ -20,6 +22,7 @@ public class EnemyAnimation : MonoBehaviour
 
         isDeadHash = Animator.StringToHash(isDeadParameter);
         isIdleHash = Animator.StringToHash(isIdleParameter);
+        isAttackingHash = Animator.StringToHash(isAttackingParameter);
     }
 
     private void Update()
@@ -33,6 +36,7 @@ public class EnemyAnimation : MonoBehaviour
             animator.enabled = true;
             animator.SetBool(isDeadHash, enemyScript.isDead);
             animator.SetBool(isIdleHash, enemyScript.isIdle);
+            animator.SetBool(isAttackingHash, enemyScript.isAttacking);
         }
     }
 }

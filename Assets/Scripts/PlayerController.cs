@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEditor.PlayerSettings;
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,6 +8,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private InputActionReference moveAction;
     [SerializeField] private InputActionReference jumpAction;
     [SerializeField] private GameObject blackScreen;
+    [SerializeField] private Camera gameCamera;
+    [SerializeField] private CheckFloor feetScript;
+    private Vector3 minCameraPoint;
+    private Vector3 maxCameraPoint;
 
     [Header("Inputs")]
     private Vector2 moveInput;
@@ -17,6 +22,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D playerRigidbody;
     public bool colFeet = false;
     private BoxCollider2D playerCollider;
+    private Vector3 playerPosition;
+    private Vector2 offset = new Vector2 (2f,1.4f);
+
 
     [Header("Player states")]
     public bool isRunning = false;
@@ -34,6 +42,8 @@ public class PlayerController : MonoBehaviour
         jumpAction.action.canceled += HandleJumpInput;
 
         playerCollider = GetComponent<BoxCollider2D>();
+
+        gameCamera = Camera.main;
     }
 
     private void Update()
@@ -42,8 +52,32 @@ public class PlayerController : MonoBehaviour
         {
             MovePlayer();
 
-            colFeet = CheckFloor.colFeet;
+            colFeet = feetScript.colFeet;
             isJumping = !colFeet; //if the cat is jumping then he doesnt have the feet on a floor or a platform
+
+            //checking if the cat is leaving the camera view (game screen)
+            playerPosition = GetComponent<Transform>().position;
+
+            minCameraPoint = gameCamera.ViewportToWorldPoint(new Vector3(0, 0)); //bottom left corner
+            maxCameraPoint = gameCamera.ViewportToWorldPoint(new Vector3(1, 1)); //top right corner
+            
+            if (playerPosition.x - offset.x <= minCameraPoint.x)
+            {
+                transform.position = new Vector3(minCameraPoint.x + offset.x, playerPosition.y);
+            }
+            else if (playerPosition.x >= maxCameraPoint.x)
+            {
+                transform.position = new Vector3(maxCameraPoint.x, playerPosition.y);
+            }
+            else if (playerPosition.y + offset.y >= maxCameraPoint.y)
+            {
+                Debug.Log("posicion player en y: " + playerPosition.y + offset.y);
+                
+                transform.position = new Vector3(playerPosition.x, maxCameraPoint.y - offset.y);
+                
+                Debug.Log("posicion spawn en y: " + (maxCameraPoint.y - offset.y));               
+            }
+            //////
         }
     }
 
@@ -57,10 +91,10 @@ public class PlayerController : MonoBehaviour
         if (!blackScreen.activeSelf && colFeet)
         {
             playerRigidbody.linearVelocity = new Vector2(playerRigidbody.linearVelocity.x, jumpForce);
-            isJumping = true;
+            /* isJumping = true;
             
             isIdle = false;
-            isRunning = false;
+            isRunning = false;*/
         }
         
     }

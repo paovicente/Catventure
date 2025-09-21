@@ -1,52 +1,10 @@
 fileFormatVersion: 2
-guid: 20b3f18f62f5644439d82013bbd166b2
+guid: 9d087c820b3ce2b47b59684575458f01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5209487013186834911
-    second: rock-01_0
-  - first:
-      213: -5230331316431969939
-    second: rock-01_1
-  - first:
-      213: -4671310626651948891
-    second: rock-01_2
-  - first:
-      213: -1252411866530877426
-    second: rock-01_3
-  - first:
-      213: -4453524707985109
-    second: rock-01_4
-  - first:
-      213: -388811026898006867
-    second: rock-01_5
-  - first:
-      213: -9121632991503658984
-    second: rock-01_6
-  - first:
-      213: 3256571435798810277
-    second: rock-01_7
-  - first:
-      213: -5986434617157785034
-    second: rock-01_8
-  - first:
-      213: 6745027611763168760
-    second: rock-01_9
-  - first:
-      213: 3042582869647112975
-    second: rock-01_10
-  - first:
-      213: -1095912708363799911
-    second: rock-01_11
-  - first:
-      213: -8567642035848246768
-    second: rock-01_12
-  - first:
-      213: -5245993927728578343
-    second: rock-01_13
-  - first:
-      213: 289368053966369214
-    second: rock-01_14
+      213: 6560783204865706985
+    second: spritesheet-backgrounds-default_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -93,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 248
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,331 +100,309 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock-01_0
+      name: spritesheet-backgrounds-default_0
       rect:
         serializedVersion: 2
-        x: 409
-        y: 5859
-        width: 1841
-        height: 882
+        x: 0
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 12eecfc992f24b7b0800000000000000
-      internalID: -5209487013186834911
+      spriteID: 8e980369eea16c944995b04f19a3f773
+      internalID: -2100879197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_1
+      name: spritesheet-backgrounds-default_1
       rect:
         serializedVersion: 2
-        x: 2393
-        y: 5814
-        width: 1584
-        height: 882
+        x: 256
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d61a87211612a67b0800000000000000
-      internalID: -5230331316431969939
+      spriteID: 889a7bac25af6474db664d5383b4d2a4
+      internalID: -415072453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_2
+      name: spritesheet-backgrounds-default_2
       rect:
         serializedVersion: 2
-        x: 3854
-        y: 6349
-        width: 311
-        height: 242
+        x: 512
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a837e61cbb2c2fb0800000000000000
-      internalID: -4671310626651948891
+      spriteID: 1f87cb904b692c94aa10f762d821fb5f
+      internalID: 1337855710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_3
+      name: spritesheet-backgrounds-default_3
       rect:
         serializedVersion: 2
-        x: 4089
-        y: 5938
-        width: 1323
-        height: 821
+        x: 768
+        y: 768
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e0071fefa0a8e9ee0800000000000000
-      internalID: -1252411866530877426
+      spriteID: 6348db281a366d44e8afe9bf12fc4a3d
+      internalID: -157526440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_4
+      name: spritesheet-backgrounds-default_4
       rect:
         serializedVersion: 2
-        x: 5400
-        y: 5733
-        width: 2221
-        height: 2311
+        x: 0
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b2938c9fa8d20fff0800000000000000
-      internalID: -4453524707985109
+      spriteID: 25509a62aab89ab4eb9a9ea0c576a7b6
+      internalID: -1931408518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_5
+      name: spritesheet-backgrounds-default_5
       rect:
         serializedVersion: 2
-        x: 501
-        y: 3082
-        width: 1840
-        height: 882
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dac4df85e6aaa9af0800000000000000
-      internalID: -388811026898006867
+      spriteID: b05fa47208e69f04ea7fe884b1ec57ab
+      internalID: 1954722066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_6
+      name: spritesheet-backgrounds-default_6
       rect:
         serializedVersion: 2
-        x: 2485
-        y: 3037
-        width: 1584
-        height: 882
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 810d0f96f13796180800000000000000
-      internalID: -9121632991503658984
+      spriteID: caf50870dd37ce3448e76ec5b9a5d5df
+      internalID: -1424651826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_7
+      name: spritesheet-backgrounds-default_7
       rect:
         serializedVersion: 2
-        x: 3945
-        y: 3572
-        width: 312
-        height: 241
+        x: 768
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5aec870877aa13d20800000000000000
-      internalID: 3256571435798810277
+      spriteID: bbfcda8739dd68e4ca41fb00cdc13b92
+      internalID: 2112300620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_8
+      name: spritesheet-backgrounds-default_8
       rect:
         serializedVersion: 2
-        x: 4180
-        y: 3160
-        width: 1323
-        height: 822
+        x: 0
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63a6535ee69ebeca0800000000000000
-      internalID: -5986434617157785034
+      spriteID: e31f7b59049c9e84f97c5b0ec61c4131
+      internalID: -1073729007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_9
+      name: spritesheet-backgrounds-default_9
       rect:
         serializedVersion: 2
-        x: 5492
-        y: 2956
-        width: 2220
-        height: 2311
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f5585f40e62b9d50800000000000000
-      internalID: 6745027611763168760
+      spriteID: bb93dea29715dc94481db00307ffcd1b
+      internalID: -1803411790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_10
+      name: spritesheet-backgrounds-default_10
       rect:
         serializedVersion: 2
-        x: 711
-        y: 432
-        width: 1840
-        height: 882
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0b3109effc693a20800000000000000
-      internalID: 3042582869647112975
+      spriteID: b00cd3e08fef59446bb9ceb38315f636
+      internalID: 107420449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_11
+      name: spritesheet-backgrounds-default_11
       rect:
         serializedVersion: 2
-        x: 2695
-        y: 387
-        width: 1584
-        height: 882
+        x: 0
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 992b329b2398ac0f0800000000000000
-      internalID: -1095912708363799911
+      spriteID: 00a52d9c0b2b38f449cf45926d581dcc
+      internalID: 798749378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_12
+      name: spritesheet-backgrounds-default_12
       rect:
         serializedVersion: 2
-        x: 4155
-        y: 922
-        width: 312
-        height: 242
+        x: 256
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 01a8f8236fe991980800000000000000
-      internalID: -8567642035848246768
+      spriteID: 02d265edabd049845aee7b0f131c480e
+      internalID: -1934231238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rock-01_13
+      name: spritesheet-backgrounds-default_13
       rect:
         serializedVersion: 2
-        x: 4391
-        y: 511
-        width: 1322
-        height: 821
+        x: 512
+        y: 0
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d0c1e3315c7237b0800000000000000
-      internalID: -5245993927728578343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rock-01_14
-      rect:
-        serializedVersion: 2
-        x: 5702
-        y: 306
-        width: 2220
-        height: 2311
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb1f20246ba040400800000000000000
-      internalID: 289368053966369214
+      spriteID: 5fbd8770b0ed6d04d8fe231af0dc2709
+      internalID: -1267411780
       vertices: []
       indices: 
       edges: []
@@ -475,7 +411,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5bcbd8260ad983748aed9c890a81307c
     internalID: 0
     vertices: []
     indices: 
@@ -485,21 +421,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rock-01_0: -5209487013186834911
-      rock-01_1: -5230331316431969939
-      rock-01_10: 3042582869647112975
-      rock-01_11: -1095912708363799911
-      rock-01_12: -8567642035848246768
-      rock-01_13: -5245993927728578343
-      rock-01_14: 289368053966369214
-      rock-01_2: -4671310626651948891
-      rock-01_3: -1252411866530877426
-      rock-01_4: -4453524707985109
-      rock-01_5: -388811026898006867
-      rock-01_6: -9121632991503658984
-      rock-01_7: 3256571435798810277
-      rock-01_8: -5986434617157785034
-      rock-01_9: 6745027611763168760
+      spritesheet-backgrounds-default_0: -2100879197
+      spritesheet-backgrounds-default_1: -415072453
+      spritesheet-backgrounds-default_10: 107420449
+      spritesheet-backgrounds-default_11: 798749378
+      spritesheet-backgrounds-default_12: -1934231238
+      spritesheet-backgrounds-default_13: -1267411780
+      spritesheet-backgrounds-default_2: 1337855710
+      spritesheet-backgrounds-default_3: -157526440
+      spritesheet-backgrounds-default_4: -1931408518
+      spritesheet-backgrounds-default_5: 1954722066
+      spritesheet-backgrounds-default_6: -1424651826
+      spritesheet-backgrounds-default_7: 2112300620
+      spritesheet-backgrounds-default_8: -1073729007
+      spritesheet-backgrounds-default_9: -1803411790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
